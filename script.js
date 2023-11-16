@@ -2,3 +2,4 @@
 lista objekata te vrste proizvoda, necu slike davat zaista 
 cijena, velicina, boja, materijal tako nesto */
 
+const showPoductsBtn = document.querySelector('.showProducts')
