@@ -17,18 +17,18 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 2rem;
 }
 nav ul {
   width: 80%;
   display: flex;
   justify-content: space-between;
-  margin-top: 2rem;
   font-size: 1.5rem;
   list-style: none;
 }
 
-nav button {
-  width: 5%;
+.button {
+  width: 75px;
   font-size: 1rem;
   border-radius: 5px;
   text-align: center;
@@ -38,6 +38,13 @@ nav button {
 .showProducts {
   display: flex;
   justify-content: center;
+  margin-bottom: 20px;
+}
+
+.shoppingCart {
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px;
 }
 
 .hidden {
@@ -57,9 +64,45 @@ nav button {
 .products, .summary {
   background-color: white;
   width: 50%;
-  height: 300px;
+  border-radius: 10px;
 }
 .products{
+    min-height: 650px;
     border-right: 1px solid black;
 }
 
+.summary {
+    height: 100px;
+}
+
+ .productsList{
+    display: flex;
+    height: 100%;
+    list-style: none;
+    flex-direction: column;
+}
+
+.productsItems {
+    flex: 1; 
+    border-bottom: 1px solid black;
+    box-sizing: border-box;
+    margin: 10px 0 0 10px;
+    display: flex;
+} 
+.productsList:last-child {
+    border-bottom: none;
+}
+
+.productsItems img{
+    width: 240px;
+    height: 200px;
+}
+   .information{
+    font-size: 2rem;
+    margin: auto;
+    padding:10px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+   }
+   

@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Simple Shopping Cart</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -18,8 +18,21 @@
     </div>
 
     <main class="app">
-        <div class="products">PRODUCTS</div>
-        <div class="summary">SUMMARY</div>
+      <div class="products">
+        <ul class="productsList">
+          <li class="productsItems">
+              <img src="img/t-shirt.jpg" alt="shirt" id="shirts"/>
+          </li>
+          <li class="productsItems">
+              <img src="img/jacket.jpg" alt="jacket" id="jackets"/>
+          </li>
+          <li class="productsItems">
+              <img src="img/shoes.avif" alt="shoes" id="shoes"/>
+              <div class="information">Click on picture to see the list of products</div>
+          </li>
+        </ul>
+      </div>
+      <div class="summary">SUMMARY</div>
     </main>
     <script src="script.js"></script>
   </body>
