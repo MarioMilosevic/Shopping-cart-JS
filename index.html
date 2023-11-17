@@ -17,37 +17,38 @@
       <h1>Click to see our products</h1>
     </div>
 
-    <main class="app">
+    <main class="app hidden">
       <div class="products">
         <ul class="productsList">
-          <li class="productsItems">
-            <img src="img/shirt/t-shirt.jpg" alt="shirt" class="shirts" />
-            <img src="img/shirt/t-shirt1.jpg" alt="shirt" class="shirts" />
-            <img src="img/shirt/t-shirt3.jpg" alt="shirt" class="shirts" />
-            <img src="img/shirt/t-shirt4.jpg" alt="shirt" class="shirts" />
+          <li id="productsItemsShirts" class="productsItems">
+            <img src="img/shirt/t-shirt.jpg" alt="shirt" />
+            <img src="img/shirt/t-shirt1.jpg" alt="shirt" />
+            <img src="img/shirt/t-shirt3.jpg" alt="shirt" />
+            <img src="img/shirt/t-shirt4.jpg" alt="shirt" />
           </li>
-          <li class="productsItems">
-            <img src="img/jacket/jacket.jpg" alt="jacket" class="jackets" />
-            <img src="img/jacket/jacket2.jpg" alt="jacket" class="jackets" />
-            <img src="img/jacket/jacket3.webp" alt="jacket" class="jackets" />
-            <img src="img/jacket/jacket4.webp" alt="jacket" class="jackets" />
+          <li id="productsItemsJackets" class="productsItems">
+            <img src="img/jacket/jacket.jpg" alt="jacket" />
+            <img src="img/jacket/jacket2.jpg" alt="jacket" />
+            <img src="img/jacket/jacket3.webp" alt="jacket" />
+            <img src="img/jacket/jacket4.webp" alt="jacket" />
           </li>
-          <li class="productsItems">
-            <img src="img/shoes.avif" alt="shoes" class="shoes" />
-            <img src="img/shoes/shoes.webp" alt="shoes" class="shoes" />
-            <img src="img/shoes/shoes3.webp" alt="shoes" class="shoes" />
-            <img src="img/shoes/shoes2.jpg" alt="shoes" class="shoes" />
+          <li id="productsItemsShoes" class="productsItems">
+            <img src="img/shoes.avif" alt="shoes" />
+            <img src="img/shoes/shoes.webp" alt="shoes" />
+            <img src="img/shoes/shoes3.webp" alt="shoes" />
+            <img src="img/shoes/shoes2.jpg" alt="shoes" />
           </li>
+          <div class="information">
+            Click on picture to see the list of products
+          </div>
         </ul>
-        <div class="information">
-          Click on picture to see the list of products
-        </div>
       </div>
       <div class="summary">
         <div class="cartList">
           Your shopping cart <br />
           is empty 😐
         </div>
+        <div class="total">Total: 0€</div>
       </div>
     </main>
     <script src="script.js"></script>
